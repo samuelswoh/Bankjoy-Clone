@@ -15,3 +15,39 @@ a {
 #content {
   text-align: center;
 }
+
+body {
+  background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#images {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+img {
+  width: 330px;
+  height:673;
+}
+
+.imageleft {
+  position: absolute;
+  left: 26.5%;
+  z-index: 1;
+}
+
+.imagecenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.imageright {
+  position: absolute;
+  left: 55.5%;
+  z-index: 1;
+}
