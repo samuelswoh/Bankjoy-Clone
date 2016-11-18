@@ -1,9 +1,16 @@
+#overlay {
+  background-color: rgba(61,70,100,.86);
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
   text-align: center;
   font-family: Arvo;
   font-size: 50px;
   color: white;
-
   font-weight: lighter;
 }
 
@@ -13,6 +20,7 @@ h2 {
   font-size: 58px;
   color: white;
   letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 .links {
@@ -40,10 +48,35 @@ a {
   text-align: center;
 }
 
+p {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  position: relative;
+  margin-top: 0px;
+  color: rgb(167,169,180);
+  margin-bottom: 45px;
+  letter-spacing: .1px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  background-color: rgb(83,115,218);
+  border-radius: 50px;
+  padding: 15px 40px;
+  border: none;
+}
+
+button:hover {
+  opacity: .8;
+}
+
 body {
   background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px;
 }
 
 #images {
