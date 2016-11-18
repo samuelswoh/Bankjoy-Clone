@@ -3,26 +3,37 @@ h1 {
   font-family: Arvo;
   font-size: 50px;
   color: white;
-  padding: 5px;
+
   font-weight: lighter;
 }
 
 h2 {
   font-family: Source Sans Pro;
   font-weight: lighter;
-  font-size: 57px;
+  font-size: 58px;
   color: white;
   letter-spacing: 1px;
 }
 
 .links {
+  position: aboslute;
   text-align: right;
-  padding: 10px;
+  padding: 33px 55px 0px 0px;
+  font-family: Source Sans Pro;
+  font-size: 17px;
+}
+
+.phone {
+  padding-right: 17px;
+}
+
+i {
+  transform: translateY(20%);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #content {
