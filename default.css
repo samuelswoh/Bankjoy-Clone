@@ -25,9 +25,9 @@ h2 {
 .links {
   position: aboslute;
   text-align: right;
-  padding: 33px 55px 0px 0px;
+  padding: 35px 45px 0px 0px;
   font-family: Source Sans Pro;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .phone {
@@ -41,6 +41,10 @@ i {
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: rgb(83,115,218);
 }
 
 #content {
